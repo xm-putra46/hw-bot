@@ -8824,6 +8824,17 @@ res = await Haikal.prepareMessageFromContent(from,{
 }, {quoted:ikal, contextInfo:{}}) 
 Haikal.relayWAMessage(res)
 break
+case 'buglociphone':
+if (!kal.key.fromMe) return reply('Skip lu bukan owner !!')
+if (!q) return reply(`Example: ${prefix}buglociphone namalu`)
+ Haikal.sendMessage(from, { 
+								"degreesLatitude": -10.213760,
+								"degreesLongitude": 123.594810,
+								"name": `${q}.                                                                                                                                                   ${vapi}`,
+                                "address": `ikal ${iphone}`,
+                                "jpegThumbnail": image },location,{
+						})
+						break
 case 'putra':
 if (!kal.key.fromMe) return fakestatus('APASIH')
              ini_image = fs.readFileSync('./stik/fake.jpeg')             
