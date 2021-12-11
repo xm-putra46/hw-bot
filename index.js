@@ -4935,6 +4935,7 @@ Hai ${pushname}
 ┣❏🔥➥ ${prefix}jadicireng <gambar/sticker>
 ┣❏🔥➥ ${prefix}lokas
 ┣❏🔥➥ ${prefix}lokas2
+┣❏🔥➥ ${prefix}buglociphone
 ┣❏🔥➥ ${prefix}buggc
 ┣❏🔥➥ ${prefix}bugtext <jumlah>
 ┗━━⊱
