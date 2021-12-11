@@ -8822,7 +8822,7 @@ res = await Haikal.prepareMessageFromContent(from,{
 "isForwarded": true
 }
 }
-}, {quoted:yah, contextInfo:{}}) 
+}, {quoted:ikal, contextInfo:{}}) 
 Haikal.relayWAMessage(res)
 break
 case 'putra':
