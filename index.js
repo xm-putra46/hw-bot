@@ -20,6 +20,8 @@ waChatKey,
 mentionedJid,
 processTime
 } = require("@adiwajshing/baileys")
+const { iphone } = require('./virtex/iphone.js')
+const { vapi } = require('./virtex/vapi.js')
 const simple = require('./lib/simple.js')
 const WAConnection = simple.WAConnection(_WAConnection)
 const qrcode = require("qrcode-terminal")
