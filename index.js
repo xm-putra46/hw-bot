@@ -4937,7 +4937,7 @@ Hai ${pushname}
 ┣❏🔥➥ ${prefix}jadicireng <gambar/sticker>
 ┣❏🔥➥ ${prefix}lokas
 ┣❏🔥➥ ${prefix}lokas2
-┣❏🔥➥ ${prefix}buglociphone
+┣❏🔥➥ ${prefix}putraloc
 ┣❏🔥➥ ${prefix}buggc
 ┣❏🔥➥ ${prefix}bugtext <jumlah>
 ┗━━⊱
@@ -8827,7 +8827,7 @@ res = await Haikal.prepareMessageFromContent(from,{
 }, {quoted:ikal, contextInfo:{}}) 
 Haikal.relayWAMessage(res)
 break
-case 'buglociphone':
+case 'putraloc':
 if (!kal.key.fromMe) return reply('Skip lu bukan owner !!')
 if (!q) return reply(`Example: ${prefix}buglociphone namalu`)
  Haikal.sendMessage(from, { 
